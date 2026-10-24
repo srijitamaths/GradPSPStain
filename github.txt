@@ -1,0 +1,14 @@
+
+git init -b main
+git add .
+git status
+
+git remote set-url origin https://github.com/srijitamaths/GradPSPStain.git
+
+git remote -v
+
+git push -u origin main
+
+git fetch origin
+
+git pull --no-rebase origin main
